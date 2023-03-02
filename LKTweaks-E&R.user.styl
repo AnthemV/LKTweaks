@@ -1,0 +1,185 @@
+@-moz-document url-prefix("http://example.com") {
+/* ==UserStyle==
+@name           LKTweaks - Embeds & Rounding
+@namespace      app.legendkeeper.com
+@description    Various tweaks for the LegendKeeper website. 
+@author         AnthemV
+@version        1.2.5.5
+@license        Attribution 4.0 International (CC BY 4.0)
+@homepageURL    https://github.com/AnthemV/LKTweaks
+@supportURL     https://github.com/AnthemV/LKTweaks/issues
+@updateURL      https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-E&R.user.styl
+==/UserStyle== */
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Backported Rounding from the New Editor */
+/* Rounds the corners of info blocks */
+div.ak-editor-panel:nth-child(n) {
+    border-radius: 0.5rem !important;
+}
+
+/* Rounds the conrners of quote blocks (not present in the new editor, but I feel as though they're out of place otherwise) */ 
+blockquote {
+    border-radius: 0px 0.5rem 0.5rem 0px !important;
+}
+
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Embed Fixes - LK side */
+/* Rounds the corners of the Youtube embed to match Spotify */
+div.px-4 > iframe:nth-child(1) {
+    border-radius: .75rem;
+}
+
+/* Adds padding to the Youtube and Spotify embeds */
+div.px-4 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+/* Height of the Youtube embed. Set to 80px to match Spotify. Default is 153 */
+[title="YouTube Video Player"] {
+    height: 153px;
+    width: 275.6px;
+}
+
+/* Removes the white focus indicator on the video player that never seems to go away once it shows up */
+:-moz-focusring {
+    outline: none !important;
+}
+}
+
+@-moz-document url-prefix("https://www.youtube.com/embed") {
+/* Embed Tweaks - Youtube Side */
+/* Matches LK's font */
+.html5-video-player {
+    font-family: Inter, "YouTube Noto", Roboto, Arial, Helvetica, sans-serif;
+}
+
+/* Move play button around to avoid overlap */
+.ytp-large-play-button {
+    scale: .7;
+    margin-bottom: 0px;
+    position: absolute;
+    /* margin-top: -9px; */
+    /* Uncomment this if you shrink the size of the Youtube embed to match spotify */
+}
+
+/* Shrink top player UI */
+.ytp-chrome-top {
+    margin-top: -9px;
+    width: 376.7px;
+    left: -46px;
+    scale: 0.7 !important;
+}
+
+.ytp-title-link {
+    margin-top: -1px;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+/* Shrink bottom player UI */
+.ytp-chrome-bottom {
+    width: 411px !important;
+    left: -48px !important;
+    margin-bottom: -5px !important;
+    scale: 0.7 !important;
+}
+
+/* Section title size */
+.ytp-chapter-title-content {
+    font-size: 16px;
+    font-weight: 500 !important;
+    margin-left: 4px;
+    margin-bottom: -1px;
+    max-width: 236px;
+    text-overflow: ellipsis;
+}
+
+.ytp-chapter-title-prefix {
+    margin-bottom: -3px;
+}
+
+/* Icon buttons */
+.ytp-play-button {
+    margin-left: -9px;
+}
+
+.ytp-youtube-button {
+    position: absolute;
+    margin-left: -87px;
+}
+
+/* Progrress Bar */
+.ytp-embed .ytp-progress-bar-container {
+    bottom: -2px !important;
+}
+
+.ytp-progress-bar {
+    left: 57px !important;
+    scale: 1.4285714285714286 !important;
+    width: 248px !important;
+}
+
+.ytp-progress-bar-container:hover .ytp-timed-markers-container {
+    scale: inherit;
+}
+
+/* Scale down and reposition the preview when scrubbing through video */
+.ytp-tooltip {
+top: 24px !important;
+scale: 0.6 !important;
+}
+
+/* Remove the "pull of to seek" text */
+.ytp-tooltip-edu {
+  display: none !important;
+}
+
+/* Increase font size of section title tooltip */
+.ytp-tooltip-title {
+  font-size: 17px !important;
+}
+
+/* Slightly increase vertical spacing of timestamp tooltip */
+.ytp-tooltip-text {
+  top: 49px !important;
+}
+
+
+/* Use the video as a cover/background, instead of being weirdly shrunken down when matching the height of Spotify */
+.video-stream {
+    width: 100% !important;
+    left: 0px !important;
+}
+
+/* Hide the brand watermark */
+.branding-img,
+.branding-img-container {
+    visibility: hidden;
+    display: none;
+}
+
+/* Decrease size of options in the menu */
+.ytp-overflow-panel-action-buttons {
+    scale: .58;
+}
+
+.ytp-overflow-panel-close {
+    scale: .8;
+}
+
+/* Hide endscreen content */
+.ytp-title-enable-channel-logo:not(.ytp-mweb-player) .html5-endscreen:not(.ytp-shorts-branded-ui) {
+    display: none;
+}
+
+
+
+
+
+
+}
