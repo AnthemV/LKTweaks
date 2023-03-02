@@ -8,3 +8,10 @@ This alters the Youtube and Spotify embeds, giving them some extra padding for t
     <img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat"/>
   </a>
  </p>
+
+Visual Sidebar Comparison  |  Video Player Comparison
+:-------------------------:|:-------------------------:
+![Alt text](Screenshots/LKTweaks.mp4)  |  ![Alt text](Screenshots/LKTweaks2.mp4)
+
+
+![Alt text](Screenshots/LKTweaks.mp4)
