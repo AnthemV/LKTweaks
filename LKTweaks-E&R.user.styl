@@ -4,7 +4,7 @@
 @namespace      app.legendkeeper.com
 @description    Various tweaks for the LegendKeeper website. 
 @author         AnthemV
-@version        1.1.0.1
+@version        1.1.0.2
 @license        Attribution 4.0 International (CC BY 4.0)
 @homepageURL    https://github.com/AnthemV/LKTweaks
 @supportURL     https://github.com/AnthemV/LKTweaks/issues
@@ -93,6 +93,11 @@ div.px-4 {
     width: 411px;
 }
 
+/* Shrink channel logo */
+.ytp-title-channel-logo {
+    scale: .84;
+}
+
 /* Section title size */
 .ytp-chapter-title-content {
     font-size: 16px;
@@ -119,8 +124,7 @@ div.px-4 {
 
 /* Progress Bar */
 .ytp-embed .ytp-progress-bar-container {
-    bottom: -4px !important;
-    border-radius: 16px;
+    bottom: -2px !important;
 }
 
 .ytp-progress-bar-container:hover .ytp-timed-markers-container {
@@ -172,6 +176,20 @@ div.px-4 {
 
 /* Hide endscreen content */
 .ytp-title-enable-channel-logo:not(.ytp-mweb-player) .html5-endscreen:not(.ytp-shorts-branded-ui) {
+    display: none;
+}
+
+/* Shrink the share panel size */
+.ytp-share-panel-inner-content {
+    scale: 0.7;
+}
+
+.ytp-share-panel-link {
+    margin-top: 22px;
+}
+
+/* Hide share text */
+.ytp-share-panel-title {
     display: none;
 }
 }
