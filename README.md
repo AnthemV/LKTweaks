@@ -10,4 +10,7 @@ This alters the Youtube and Spotify embeds, giving them some extra padding for t
  </p>
 
 
-![Alt text](Screenshots/LKTweaks.mp4)
+Before             |  After 
+:-------------------------:|:-------------------------:
+![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/Screenshot%20from%202023-03-03%2002-07-55.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/Screenshot%20from%202023-03-03%2002-07-31.png?raw=true)
+![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/Screenshot%20from%202023-03-03%2002-08-05.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/Screenshot%20from%202023-03-03%2002-07-20.png?raw=true)
