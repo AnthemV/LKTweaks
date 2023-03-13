@@ -1,0 +1,23 @@
+@-moz-document url-prefix("http://example.com") {
+/* ==UserStyle==
+@name           LKTweaks - Link Preview Borders
+@namespace      app.legendkeeper.com
+@description    Adds a small border to the edges of link preview windows
+@author         AnthemV
+@version        1.0
+@license        Attribution 4.0 International (CC BY 4.0)
+@homepageURL    https://github.com/AnthemV/LKTweaks
+@supportURL     https://github.com/AnthemV/LKTweaks/issues
+@updateURL      https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-PreviewBorder.user.styl
+==/UserStyle== */
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+.popover-resource {
+    border: 1px solid #393945;
+}
+
+.popover-resource .resource-viewer {
+    height: 316px;
+}
+}
