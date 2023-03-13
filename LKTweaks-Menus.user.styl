@@ -1,0 +1,74 @@
+@-moz-document url-prefix("http://example.com") {
+/* ==UserStyle==
+@name           LKTweaks - Embeds & Rounding
+@namespace      app.legendkeeper.com
+@description    Tweaks for the munu items in LK
+@author         AnthemV
+@version        1.0
+@license        Attribution 4.0 International (CC BY 4.0)
+@homepageURL    https://github.com/AnthemV/LKTweaks
+@supportURL     https://github.com/AnthemV/LKTweaks/issues
+@updateURL      https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Menus.user.styl
+==/UserStyle== */
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Left and right padding for menu items */
+.list-item {
+    width: calc(100% - 12px) !important;
+    margin-left: 6px;
+    border-radius: 4px;
+}
+
+button.tree-item-container:nth-child(n) > div:nth-child(1) > div:nth-child(2) {
+    margin-left: -6px;
+}
+
+/* Fixes subpage index and tag index */
+.dctooM.with-children {
+    margin-left: -6px;
+}
+
+/* Add padding to dividers in menus */
+.divider.padded {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+
+
+/* Boards menu */
+.c-ecEETu {
+    width: calc(100% - 12px);
+    margin-left: 6px;
+}
+
+/* Boards zoom menu */
+.c-ffQbAo {
+    width: 152px;
+}
+
+/* Boards return to content */
+.c-yroDl {
+    width: 105%;
+}
+
+
+
+/* Projects */
+[class="menu-item interactive-overlay"] {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    border-radius: 8px;
+    min-width: 190px;
+}
+/* Project inner padding */
+.menu-item {
+padding: 12px 16px;
+}
+
+/* Project menu dividers */
+.divider.secondary {
+margin: 0px 30px !important;
+}
+}
