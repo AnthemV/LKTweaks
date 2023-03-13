@@ -4,7 +4,7 @@
 @namespace      app.legendkeeper.com
 @description    Tweaks for the munu items in LK
 @author         AnthemV
-@version        1.0
+@version        1.1.1
 @license        Attribution 4.0 International (CC BY 4.0)
 @homepageURL    https://github.com/AnthemV/LKTweaks
 @supportURL     https://github.com/AnthemV/LKTweaks/issues
@@ -37,6 +37,36 @@ button.tree-item-container:nth-child(n) > div:nth-child(1) > div:nth-child(2) {
 
 
 
+
+/* Main wiki entries */
+div.special-overlay:nth-child(n) {
+    width: 99% !important;
+}
+
+
+/* Sidebar entries*/
+.jss64 {
+    width: calc(100% - 12px);
+    margin: 0px 6px;
+    border-radius: 4px;
+}
+
+.jss64 > .tree-item-container {
+    margin-left: -12px !important;
+}
+
+/* Right click */
+[class="w-[300px] max-h-[400px] overflow-auto"] [class="menu-item interactive-overlay"] {
+    margin: 0px 12px;
+    border-radius: 4px;
+}
+
+/* More padding in right click menu */
+.w-\[300px\] {
+    padding-bottom: 5px;
+}
+
+
 /* Boards menu */
 .c-ecEETu {
     width: calc(100% - 12px);
@@ -56,19 +86,23 @@ button.tree-item-container:nth-child(n) > div:nth-child(1) > div:nth-child(2) {
 
 
 /* Projects */
-[class="menu-item interactive-overlay"] {
+.drop-box [class="menu-item interactive-overlay"] {
     width: calc(100% - 40px);
     margin-left: 20px;
     border-radius: 8px;
     min-width: 190px;
 }
+
 /* Project inner padding */
 .menu-item {
-padding: 12px 16px;
+    padding: 12px 16px;
 }
 
 /* Project menu dividers */
 .divider.secondary {
-margin: 0px 30px !important;
+    margin: 0px 30px !important;
+}
+.world-select-background [class="divider padded"] {
+    margin-bottom: 8px
 }
 }
