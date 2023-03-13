@@ -4,7 +4,7 @@
 @namespace      app.legendkeeper.com
 @description    Various tweaks for the LegendKeeper website. 
 @author         AnthemV
-@version        1.1.0.3
+@version        1.2
 @license        Attribution 4.0 International (CC BY 4.0)
 @homepageURL    https://github.com/AnthemV/LKTweaks
 @supportURL     https://github.com/AnthemV/LKTweaks/issues
@@ -34,14 +34,14 @@ div.px-4 > iframe:nth-child(1) {
 
 /* Adds padding to the Youtube and Spotify embeds */
 div.px-4 {
-    padding-top: 7px;
-    padding-bottom: 7px;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
-/* Height of the Youtube embed. Set to 80px to match Spotify. Default is 153 */
+/* Height of the Youtube embed. Set to 80px to match Spotify. Set to 153px to remove small borders from to0p and bottom of player. Default is 157px. WARNING: Setting lower than 157px will make video thumbnails blurry */
 [title="YouTube Video Player"] {
-    height: 153px;
-    width: 275.6px;
+    height: 157px;
+    width: 276px;
 }
 
 /* Removes the white focus indicator on the video player that never seems to go away once it shows up */
@@ -62,8 +62,6 @@ div.px-4 {
     scale: .7;
     margin-bottom: 0px;
     position: absolute;
-    /* margin-top: -9px; */
-    /* Uncomment this if you shrink the size of the Youtube embed to match spotify */
 }
 
 /* Shrink top player UI */
@@ -158,6 +156,19 @@ div.px-4 {
     left: 0px !important;
 }
 
+/* Slightly oversize the video to cover borders that can't be hidden (blame YouTube) */
+.video-stream {
+    height: 157px !important;
+    top: 0px !important;
+}
+
+/* Slightly oversize the thumbnail to cover borders that can't be hidden (a necessary evil) */
+.ytp-cued-thumbnail-overlay-image {
+  width: 101% !important;
+  height: 105% !important;
+  top: -4px !important;
+}
+
 /* Hide the brand watermark */
 .branding-img,
 .branding-img-container {
@@ -192,4 +203,16 @@ div.px-4 {
 .ytp-share-panel-title {
     display: none;
 }
+
+/* Shrinks the right cick menu */
+div.ytp-popup:nth-child(5) > div:nth-child(1) > div:nth-child(1) {
+scale: 0.9;
+}
+
+/* Remove the hint of color around the rounded corners of the player */
+.html5-video-player:not(.ytp-transparent), .html5-video-player.unstarted-mode, .html5-video-player.ad-showing, .html5-video-player.ended-mode, .html5-video-player.ytp-fullscreen {
+  background-color: transparent !important;
+}
+
+
 }
