@@ -4,7 +4,7 @@
 @namespace      app.legendkeeper.com
 @description    Various tweaks for the LegendKeeper website. 
 @author         AnthemV
-@version        1.2
+@version        1.2.2
 @license        Attribution 4.0 International (CC BY 4.0)
 @homepageURL    https://github.com/AnthemV/LKTweaks
 @supportURL     https://github.com/AnthemV/LKTweaks/issues
@@ -13,7 +13,7 @@
 }
 
 @-moz-document domain("app.legendkeeper.com") {
-/* Backported Rounding from the New Editor */
+/* Rounding */
 /* Rounds the corners of info blocks */
 div.ak-editor-panel:nth-child(n) {
     border-radius: 0.5rem !important;
@@ -25,6 +25,10 @@ blockquote {
 }
 }
 
+/* Rounds images */
+.sc-jrIrqw {
+border-radius: 0.7rem;
+}
 @-moz-document domain("app.legendkeeper.com") {
 /* Embed Fixes - LK side */
 /* Rounds the corners of the Youtube embed to match Spotify */
