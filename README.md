@@ -1,7 +1,7 @@
 ### Usage
 Install the browser extention Stylus ([Firefox.](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) [Chrome.](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)), then click the "Install directly with Stylus" button.
 
-## Embeds Style 
+## Embed Style 
 This alters the Youtube and Spotify embeds, giving them some extra padding to stay consistant with other sidebar blocks. It also alters the Youtube embed to work much better at a small size. 
 <p align="left">
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Embeds.user.styl">
@@ -29,7 +29,7 @@ This changes the appearance of menu items in LK.
 ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeMenus.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterMenus.png?raw=true)
  
  ## Rounding Style 
-This adds rounded corners to the right edges of quote blocks, and more pronounced rouned corners to images.
+This adds rounded corners to quote blocks, and makes the rounded corners of images more pronounced.
 <p align="left">
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Rounding.user.styl">
     <img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat"/>
@@ -40,8 +40,8 @@ This adds rounded corners to the right edges of quote blocks, and more pronounce
 :-------------------------:|:-------------------------:
 ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeRounding2.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterRounding2.png?raw=true)
  
-  ## Link Preview Border Style 
-This adds a small border to the edges of the popover link preview windows, making them easier to differentiate. 
+  ## Link Preview Window Border Style 
+This adds a small border to the link preview windows, making them easier to differentiate from the background.
 <p align="left">
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-PreviewBorder.user.styl">
     <img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat"/>
