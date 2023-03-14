@@ -1,0 +1,25 @@
+@-moz-document url-prefix("http://example.com") {
+/* ==UserStyle==
+@name           LKTweaks - Extra Rounding
+@namespace      app.legendkeeper.com
+@description    Various tweaks for the LegendKeeper website. 
+@author         AnthemV
+@version        1.0
+@license        Attribution 4.0 International (CC BY 4.0)
+@homepageURL    https://github.com/AnthemV/LKTweaks
+@supportURL     https://github.com/AnthemV/LKTweaks/issues
+@updateURL      https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Rounding.user.styl
+==/UserStyle== */
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Rounds the corners of quote blocks */
+blockquote {
+    border-radius: 0px 0.5rem 0.5rem 0px
+}
+
+/* Rounds the corners of images */
+.sc-jrIrqw {
+    border-radius: 0.7rem;
+}
+}
