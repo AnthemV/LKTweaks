@@ -38,7 +38,7 @@ This adds rounded corners to the right edges of quote blocks, and more pronounce
  
   Before             |  After 
 :-------------------------:|:-------------------------:
-![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeRounding.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterRounding.png?raw=true)
+![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeRounding2.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterRounding2.png?raw=true)
  
   ## Link Preview Border Style 
 This adds a small border to the edges of the popover link preview windows, making them easier to differentiate. 
@@ -50,4 +50,4 @@ This adds a small border to the edges of the popover link preview windows, makin
  
    Before             |  After 
 :-------------------------:|:-------------------------:
-![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeBorder.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterBorder.png?raw=true)
+![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeBorder2.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterBorder2.png?raw=true)
