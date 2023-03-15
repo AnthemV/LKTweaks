@@ -1,0 +1,70 @@
+@-moz-document url-prefix("http://example.com") {
+/* ==UserStyle==
+@name           LKTweaks - Search Button
+@namespace      app.legendkeeper.com
+@description    Moves the search icon into the same section as the other bottom blocks
+@author         AnthemV
+@version        1.0
+@license        Attribution 4.0 International (CC BY 4.0)
+@homepageURL    https://github.com/AnthemV/LKTweaks
+@supportURL     https://github.com/AnthemV/LKTweaks/issues
+@updateURL      https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Search.user.styl
+==/UserStyle== */
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Remove search label */
+.mb-2 > div:nth-child(2) > div:nth-child(1) > div:nth-child(2) {
+    display: none;
+}
+
+/* Search block */
+.mb-2 {
+    background: #1B1D1F;
+    width: 51.7833px !important;
+    margin-left: 9px;
+    height: 48px;
+    bottom: -20px;
+    border-radius: 8px;
+}
+
+/* Resize create block */
+button.jss22:nth-child(1) {
+    margin-left: 61px;
+    width: calc(100% - 75.4px);
+}
+
+/* Move search block down */
+.sidebar-wiki > div:nth-child(3) > button:nth-child(1) {
+    top: 35px;
+    width: 64px;
+}
+
+/* Ensure that search icon isn't cut off */
+.mb-2 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1) {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+/* Increase size of search icon */
+.mb-2 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) {
+    scale: 1.7;
+    margin-left: 3px !important;
+}
+
+/* Scoot the section that used to hold the search position out of view */
+.sidebar-wiki > div:nth-child(3) {
+    margin-top: -47px;
+}
+
+
+/* Search block hover color */
+.mb-2:hover {
+    background-color: rgb(70, 74, 77) !important;
+}
+
+/* Hover color for search icon */
+.mb-2 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1) > path:nth-child(1):hover {
+    color: #E7E8E8;
+}
+}
