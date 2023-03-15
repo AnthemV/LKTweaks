@@ -1,5 +1,5 @@
 ### Usage
-Install the browser extention Stylus ([Firefox.](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) [Chrome.](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)), then click the "Install directly with Stylus" buttons.
+Install the browser extention *Stylus* ([Firefox.](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) [Chrome.](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)), then click the "Install directly with Stylus" buttons.
 
 ## Embed Tweaks 
 This alters the Youtube and Spotify embeds, giving them some extra padding to stay consistant with other sidebar blocks. It also alters the Youtube embed to work much better at a small size. 
