@@ -53,7 +53,7 @@ This adds a small border to the link preview windows, making them easier to diff
 ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeBorder2.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterBorder2.png?raw=true)
 
   ## Search Tweaks
-Moves the search icon into the same section as the other bottom blocks.
+Moves the search icon into the same section as the other bottom blocks. Doesn't support light theme, due to currently hardcoded colors.
 <p align="left">
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Search.user.styl">
     <img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat"/>
