@@ -4,7 +4,7 @@
 @namespace      app.legendkeeper.com
 @description    Moves the search icon into the same section as the other bottom blocks
 @author         AnthemV
-@version        1.2
+@version        1.3
 @license        Attribution 4.0 International (CC BY 4.0)
 @homepageURL    https://github.com/AnthemV/LKTweaks
 @supportURL     https://github.com/AnthemV/LKTweaks/issues
@@ -69,7 +69,12 @@
 }
 
 /* Hover color for search icon */
-.mb-2 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1) > path:nth-child(1):hover {
+.mb-2:hover > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1) > path:nth-child(1) {
     color: #E7E8E8;
+}
+
+/* Use correct cursor */
+.mb-2 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1) {
+    cursor: pointer;
 }
 }
