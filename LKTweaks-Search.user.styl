@@ -4,7 +4,7 @@
 @namespace      app.legendkeeper.com
 @description    Moves the search icon into the same section as the other bottom blocks
 @author         AnthemV
-@version        1.3.1
+@version        1.5
 @license        Attribution 4.0 International (CC BY 4.0)
 @homepageURL    https://github.com/AnthemV/LKTweaks
 @supportURL     https://github.com/AnthemV/LKTweaks/issues
@@ -20,7 +20,6 @@
 
 /* Search block */
 .mb-2 {
-    background: #1B1D1F;
     width: 51.7833px !important;
     margin-left: 9px;
     height: 48px;
@@ -28,14 +27,15 @@
     border-radius: 8px;
 }
 
+
 /* Resize create block */
-[class="sidebar-wiki"] [class*='jss']:nth-of-type(4) [class*='jss']:nth-child(1) {
+div.sidebar-wiki [class*='jss'] button:nth-of-type(1) {
     margin-left: 61px !important;
     width: calc(100% - 75.4px) !important;
 }
 
 /* Move search block down */
-.sidebar-wiki > div:nth-child(3) > button:nth-child(1) {
+div#root div.App div.jss1.lk-layout-manager div.jss6 div.MuiDrawer-root.MuiDrawer-docked.jss3 div.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.MuiPaper-elevation0 div.sidebar-wiki div button.tree-item-container {
     top: 35px;
     width: 64px;
 }
@@ -52,26 +52,55 @@
     margin-left: 3px !important;
 }
 
+
 /* Scoot the section that used to hold the search position out of view */
-.sidebar-wiki > div:nth-child(3) {
-    margin-top: -47px;
+.sidebar-wiki > div:nth-child(4) {
+    margin-top: -47px !important;
 }
 
 
-/* Search block hover color */
-.mb-2:hover {
+/* Search block colors - dark mode */
+body.theme-dark.dark .mb-2:hover {
     background-color: rgb(70, 74, 77) !important;
 }
 
+body.theme-dark.dark .mb-2 {
+    background: #1B1D1F;
+}
+
 /* Color for search icon */
-.mb-2 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1) > path:nth-child(1) {
+body.theme-dark.dark .mb-2 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1) > path:nth-child(1) {
     color: #575859;
 }
 
 /* Hover color for search icon */
-.mb-2:hover > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1) > path:nth-child(1) {
+body.theme-dark.dark .mb-2:hover > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1) > path:nth-child(1) {
     color: #E7E8E8;
 }
+
+
+
+/* Search block colors - light mode */
+body.theme-light.light .mb-2:hover {
+    background-color: rgb(205, 207, 208) !important;
+}
+
+body.theme-light.light .mb-2 {
+    background: #FFFFFF;
+}
+
+/* Color for search icon */
+body.theme-light.light .mb-2 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1) > path:nth-child(1) {
+    color: #B7B7B7;
+}
+
+/* Hover color for search icon */
+body.theme-light.light .mb-2:hover > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1) > path:nth-child(1) {
+    color: #0E0F0F;
+}
+
+
+
 
 /* Use correct cursor */
 .mb-2 > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > svg:nth-child(1) {
