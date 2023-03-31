@@ -4,7 +4,7 @@
 @namespace      app.legendkeeper.com
 @description    Tweaks for the munu items in LK
 @author         AnthemV
-@version        1.1.2
+@version        1.2
 @license        Attribution 4.0 International (CC BY 4.0)
 @homepageURL    https://github.com/AnthemV/LKTweaks
 @supportURL     https://github.com/AnthemV/LKTweaks/issues
@@ -35,20 +35,20 @@ button.tree-item-container:nth-child(n) > div:nth-child(1) > div:nth-child(2) {
     margin-bottom: 6px;
 }
 
+/* Fix for right click heading seletor in the editor */
+.action-menu .tree-item {
+    width: 100% !important;
+    margin-left: 0px !important;
+    border-radius: 0px !important;
+}
+
+
 
 
 
 /* Main wiki entries */
 div.special-overlay:nth-child(n) {
     width: 99% !important;
-}
-
-
-/* Sidebar entries*/
-.jss64 {
-    width: calc(100% - 12px);
-    margin: 0px 6px;
-    border-radius: 4px;
 }
 
 .jss64 > .tree-item-container {
@@ -71,12 +71,27 @@ div.special-overlay:nth-child(n) {
 .c-ecEETu {
     width: calc(100% - 12px);
     margin-left: 6px;
+    padding: 0px 10px;
 }
 
-/* Boards zoom menu */
-.c-ffQbAo {
-    width: 152px;
+/* Boards go to content button */
+html body.theme-dark.dark.t-ZdJJK div#root div.App div.jss1.lk-layout-manager div.jss6 div.jss7 div.jss32.jss38.resource-viewer.board div.jss33.jss39 div.jss59.jss60.board-page div.jss58 div.tldraw div div.c-jOyZnp.t-ZdJJK div.c-dwQeTN div.c-iOLsYG.tools-panel-container div.c-gpFQuA.tools-center-wrap div.c-kMovMn.c-krcnSs.tools-panel div.c-SJPuk.c-dNCnBz button.c-yroDl.c-yroDl-fjCQFt-cv div.c-ecEETu {
+    width: 112px;
+    margin-right: 6px;
 }
+
+/* Specific fixes for boards zoom menu and color menus */
+.c-SJPuk.c-ffQbAo.dropdown-content .c-ecEETu {
+    width: calc(100% - 12px);
+    margin-right: 6px;
+}
+
+/* Boards dividers */
+.c-hbofmm {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
 
 
 
