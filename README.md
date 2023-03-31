@@ -81,7 +81,7 @@ This adds a small border to the link preview windows, making them easier to diff
   </a>
  </p>
   
-Moves the search icon into the same section as the other bottom blocks. Currently doesn't support light theme, due to the colors being hardcoded.
+Moves the search icon into the same section as the other bottom blocks. 
 
  
    Before             |  After 
