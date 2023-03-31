@@ -16,7 +16,7 @@ This style alters the Youtube and Spotify embeds, giving them some extra padding
 Fair warning, this will likely mess up YouTube embeds on other sites. I recomend installing LegendKeeper as a *Progressive Web App* in order to get around this. Alternatively, you can simply keep the style turned off whenever you're not using LegendKeeper. It can be toggled from the extention.
 
 #### Progressive Web App Options
-* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/pwas-for-firefox/) - Easy, uses a seperate extension list from the main browser.
+* [Firefox](https://addons.mozilla.org/en-US/firefox/addon/pwas-for-firefox/) - Easy, uses a seperate extension list than the main browser.
 * [Chrome](https://support.google.com/chrome/answer/9658361) - More difficult, requires another browser or profile for seperate extensions.
 
 
