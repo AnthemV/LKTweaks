@@ -4,7 +4,7 @@
 @namespace      app.legendkeeper.com
 @description    Moves the search icon into the same section as the other bottom blocks
 @author         AnthemV
-@version        1.5
+@version        1.5.1
 @license        Attribution 4.0 International (CC BY 4.0)
 @homepageURL    https://github.com/AnthemV/LKTweaks
 @supportURL     https://github.com/AnthemV/LKTweaks/issues
@@ -21,9 +21,9 @@
 /* Search block */
 .mb-2 {
     width: 51.7833px !important;
-    margin-left: 9px;
+    margin-left: -3px;
+    margin-bottom: -5px;
     height: 48px;
-    bottom: -20px;
     border-radius: 8px;
 }
 
@@ -35,9 +35,11 @@ div.sidebar-wiki [class*='jss'] button:nth-of-type(1) {
 }
 
 /* Move search block down */
-div#root div.App div.jss1.lk-layout-manager div.jss6 div.MuiDrawer-root.MuiDrawer-docked.jss3 div.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.MuiPaper-elevation0 div.sidebar-wiki div button.tree-item-container {
-    top: 35px;
-    width: 64px;
+div.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft.MuiPaper-elevation0 div.sidebar-wiki div button.tree-item-container {
+    width: 49px;
+    bottom: -55px;
+    margin-left: 12px;
+    margin-bottom: 12px;
 }
 
 /* Ensure that search icon isn't cut off */
