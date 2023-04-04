@@ -4,7 +4,7 @@
 @namespace      app.legendkeeper.com
 @description    Moves the search icon into the same section as the other bottom blocks
 @author         AnthemV
-@version        1.5.1
+@version        1.5.2
 @license        Attribution 4.0 International (CC BY 4.0)
 @homepageURL    https://github.com/AnthemV/LKTweaks
 @supportURL     https://github.com/AnthemV/LKTweaks/issues
@@ -56,7 +56,8 @@ div.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorLeft.MuiDrawer-paperAncho
 
 
 /* Scoot the section that used to hold the search position out of view */
-.sidebar-wiki > div:nth-child(4) {
+.sidebar-wiki > div:nth-child(3):not(.results-container),
+.sidebar-wiki > div:nth-child(4):not([class*="jss21"]) {
     margin-top: -47px !important;
 }
 
