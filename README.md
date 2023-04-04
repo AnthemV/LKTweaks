@@ -13,7 +13,7 @@ These styles are made for the legacy site, and won't work on public worlds (excl
 
 This style alters the Youtube and Spotify embeds, giving them some extra padding to stay consistant with other sidebar blocks. It also alters the Youtube embed to work much better at a small size. 
 
-Fair warning, this will likely mess up YouTube embeds on other sites. I recomend installing LegendKeeper as a *Progressive Web App* in order to get around this. Alternatively, you can simply keep the style turned off whenever you're not using LegendKeeper. It can be toggled from the extention.
+Fair warning, this will likely mess up YouTube embeds on other sites. I recomend installing LegendKeeper as a *Progressive Web App* in order to get around this. Alternatively, you can simply keep the style turned off whenever you're not using LegendKeeper. It can be toggled from the extension.
 
 #### Progressive Web App Options
 * [Firefox](https://addons.mozilla.org/en-US/firefox/addon/pwas-for-firefox/) - Easy, uses a seperate extension list than the main browser.
