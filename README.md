@@ -4,7 +4,7 @@
 
 **The very simple eighteen step process to achive this is as follows:**
 1. Install Firefox.
-2. Install the [Progressive Web Apps for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) extension.
+2. Install the [Progressive Web Apps for Firefox](https://addons.mozilla.org/en-US/firefox/addon/pwas-for-firefox/) extension.
 3. Install LegendKeeper as a PWA.
 4. Download and extract the `chrome` folder from the releases section.
 5. Press `f6` and go to `about:support`
@@ -74,7 +74,7 @@ Adds a cover image to the project browser. You have to manually specify the worl
   </a>
  </p>
   
-Makes tables look nicer.
+Makes tables look nicer. The examples here are using some messy alignment things I'm still playing with. It would cause more issues if I included them.
 
  
    Before             |  After 
