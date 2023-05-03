@@ -40,7 +40,7 @@ This style was made with the scaling and zoom of my personal LK instance in mind
 # Individual Styles 
 
 ### Usage
-Install the browser extention *Stylus* ([Firefox.](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) [Chrome.](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)), then click the "Install directly with Stylus" buttons.
+Install the browser extension *Stylus* ([Firefox.](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) [Chrome.](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)), then click the "Install directly with Stylus" buttons.
 
 These styles are made for the legacy site, and (mostly) won't work on public worlds.
 
