@@ -33,7 +33,7 @@
  </p>
  
  **Disclaimer:**
-This style was made with the scaling and zoom of my personal LK instance in mind. If anything on your end differs, the placement of the window buttons is likely to be messed up. You can fix this by editing a file within the `chrome` folder we extracted and placed earlier. Go to `chrome/firefox-gnome-theme/customChrome.css` The values to edit are clearly marked out at the top.
+This style was made with the scaling and zoom of my personal LK instance in mind. If anything on your end differs, the placement of the window buttons is likely to be messed up. You can fix this by editing a file within the `chrome` folder we extracted and placed earlier. Go to `location-of-your-profile-directory/chrome/firefox-gnome-theme/customChrome.css` The values to edit are clearly marked out at the top. 
 
 ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/Howtoedit.png?raw=true)
 
