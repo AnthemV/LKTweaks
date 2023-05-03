@@ -1,0 +1,60 @@
+@-moz-document url-prefix("http://example.com") {
+/* ==UserStyle==
+@name           LKTweaks - Tables
+@namespace      app.legendkeeper.com
+@description    Makes tables look nicer
+@author         AnthemV
+@version        1.0
+@license        Attribution 4.0 International (CC BY 4.0)
+@homepageURL    https://github.com/AnthemV/LKTweaks
+@supportURL     https://github.com/AnthemV/LKTweaks/issues
+@updateURL      https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Tables.user.styl
+==/UserStyle== */
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Table Alterations */
+/* Removes chunky top margin from tables so that they slot in more smoothly around other text */
+.pm-table-wrapper > table:nth-child(n) {
+    margin: 0px !important;
+}
+
+/* Hides table borders */
+.cGIGgt .ProseMirror .pm-table-container > table th,
+.cGIGgt .ProseMirror .pm-table-wrapper > table th,
+.cGIGgt .ProseMirror .pm-table-container > table td,
+.cGIGgt .ProseMirror .pm-table-wrapper > table td {
+    border-width: 0px;
+}
+
+/* Hides other secret table borders */
+.cGIGgt .ProseMirror .pm-table-container > table,
+.cGIGgt .ProseMirror .pm-table-wrapper > table {
+    border: transparent !important;
+}
+
+/* Shifts table side section up to account for borders being hidden */
+.pm-table-row-controls-wrapper {
+    top: -2px !important;
+}
+
+/* Sets every even row in a table to a set color - dark theme */
+.theme-dark tr:nth-child(even) {
+    background-color: #292C2E;
+}
+
+/* Sets every even row in a table to a set color - light theme */
+.theme-light tr:nth-child(even) {
+    background-color: #F2F4F5;
+}
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Optional Features */
+/* Applies a background color to table headers. Relies on recent browser features */
+/*
+tr:has(.pm-table-header-content-wrap):first-of-type {
+    background-color: #961334 !important;
+} 
+*/
+}
