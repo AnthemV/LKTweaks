@@ -1,0 +1,57 @@
+@-moz-document url-prefix("http://example.com") {
+/* ==UserStyle==
+@name           LKTweaks - World Image
+@namespace      app.legendkeeper.com
+@description    A style that adds a cover image to the project browser
+@author         AnthemV
+@version        1.0
+@license        Attribution 4.0 International (CC BY 4.0)
+@homepageURL    https://github.com/AnthemV/LKTweaks
+@supportURL     https://github.com/AnthemV/LKTweaks/issues
+==/UserStyle== */
+}
+
+@-moz-document url-prefix("https://app.legendkeeper.com/a/[YOUR WORLD HERE]") {
+/* Adds an image as the background of the shortcuts section */
+body.theme-dark.dark .wiki-shortcuts {
+    background: linear-gradient(to bottom, rgba(253, 153, 255, 0) 0%, #292C2E 97%), url(https://assets.legendkeeper.com/deb59240-8b2c-481b-9996-c5abddb00108.png);
+    padding-bottom: 50px;
+    padding-top: 170px;
+    background-size: cover;
+    margin-top: -64px;
+}
+
+body.theme-light.light .wiki-shortcuts {
+    background: linear-gradient(to bottom, rgba(253, 153, 255, 0) 0%, #F2F4F5 97%), url(https://assets.legendkeeper.com/deb59240-8b2c-481b-9996-c5abddb00108.png);
+    padding-bottom: 50px;
+    padding-top: 170px;
+    background-size: cover;
+    margin-top: -64px;
+}
+
+/* Makes the headerbar transparent */
+.toolbar {
+    background-color: transparent;
+}
+
+/* Makes a convenient section of the page behind the headerbar the same color as the headerbar used to be. This might seem pointless, but has to do with putting the image in front of the headerbar */
+.lk-layout-manager {
+    background: #0E0F0F !important;
+}
+
+/* Moves the buttons in the headerbar slightly to the right, because it doesn't look right otherwise */
+.button-bar > div:nth-child(1) {
+    margin-left: 7px;
+}
+
+/* Makes the project name invisible */
+[class*="toolbar"] [class*='jss']:nth-of-type(2) {
+    visibility: hidden;
+}
+
+/* This makes the blue line that lets you adjust the size of the sidebar go all the way to the top of the screen */
+.lk-layout-manager > [class*="jss"]:nth-child(2) > [class*="jss"]:nth-child(2) > [class*="jss"]:nth-child(1) {
+    min-height: 100% !important;
+    top: -64px !important;
+}
+}
