@@ -1,0 +1,37 @@
+@-moz-document url-prefix("http://example.com") {
+/* ==UserStyle==
+@name           LKTweaks - Webapp
+@namespace      app.legendkeeper.com
+@description    Works with custom Firefox userChrome to enable a traditional application-like experience. Requires a custom version of the Firefox GNOME Theme from LKTweaks Github, used on specifically a PWA made with the Progressive Web Apps for Firefox extension. 
+@author         AnthemV
+@version        1.0
+@license        Attribution 4.0 International (CC BY 4.0)
+@homepageURL    https://github.com/AnthemV/LKTweaks
+@supportURL     https://github.com/AnthemV/LKTweaks/issues
+@updateURL      https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Webapp.user.styl
+==/UserStyle== */
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Moves right toolbar buttons to the left to make room for window controls */
+.toolbar {
+    padding-right: 130px;
+}
+
+/* Moves autolink and version panels down so that it's not covered by thw window controls */
+div.MuiDrawer-root:nth-child(2) > div:nth-child(1),
+div.MuiDrawer-root:nth-child(3) > div:nth-child(1) {
+    top: 64px;
+}
+
+/* Move button on bottom of version panel up to account for the smaller height of the panel */
+div.MuiDrawer-root:nth-child(2) > div:nth-child(1),
+div.MuiDrawer-root:nth-child(3) > div:nth-child(1) .rounded-overlay {
+    margin-bottom: 78px;
+}
+
+/* Move button on bottom of autolink panel up to account for the smaller height of the panel */
+div.MuiDrawer-root.MuiDrawer-docked.lk-drawer div.MuiPaper-root.MuiDrawer-paper.MuiDrawer-paperAnchorRight.MuiDrawer-paperAnchorDockedRight.MuiPaper-elevation6 div.autolinker.elevation-3 button.lk-button.md.rounded-overlay.confirm-btn {
+    margin-bottom: 84px;
+}
+}
