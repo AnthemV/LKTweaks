@@ -2,7 +2,7 @@
 # The LK Webapp
 ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/LkWebapp.png?raw=true)
 
-**The install process for this is as follows:**
+**The very simple eighteen step process to achive this is as follows:**
 1. Install Firefox.
 2. Install the [Progressive Web Apps for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) extension.
 3. Install LegendKeeper as a PWA.
@@ -18,8 +18,11 @@
 13. Scroll down and enable `Show browser tabs and enable using multi-tabbed web apps`
 14. Press `f6` and go to `https://addons.mozilla.org/en-US/firefox/addon/styl-us/`
 15. Install the extension Stylus.
-16. Install the Webapp Style from below.
-17. Install any other styles you desire, then restart your LegendKeeper PWA!
+16. Press `f6` and go to `https://github.com/AnthemV/LKTweaks` (hey, that's here!)
+17. Install the Webapp Style from below.
+18. Install any other styles you desire, then restart your LegendKeeper PWA!
+
+
 
   ## WebApp Style
   
@@ -28,7 +31,11 @@
     <img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat"/>
   </a>
  </p>
-  
+ 
+ **Disclaimer:**
+This style was made with the scaling and zoom of my personal LK instance in mind. If anything on your end differs, the placement of the window buttons is likely to be messed up. You can fix this by editing a file within the `chrome` folder we extracted and placed earlier. Go to `chrome/firefox-gnome-theme/customChrome.css` The values to edit are clearly marked out at the top.
+
+![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/Howtoedit.png?raw=true)
 
 # Individual Styles 
 
