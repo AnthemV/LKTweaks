@@ -6,7 +6,7 @@
 1. Install Firefox.
 2. Install the [Progressive Web Apps for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) extension.
 3. Install LegendKeeper as a PWA.
-4. Download the `chrome` folder from this repo.
+4. Download and extract the `chrome` folder from the releases section.
 5. Press `f6` and go to `about:support`
 6. Scroll down slightly, and locate where it says "Profile Directory." Click on the button that says `Open Directory`
 7. Move the downloaded `chrome` folder to this directory. 
