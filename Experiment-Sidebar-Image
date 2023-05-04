@@ -1,0 +1,30 @@
+@-moz-document url-prefix("http://example.com") {
+/* ==UserStyle==
+@name           Experiment - Sidebar Image
+@namespace      app.legendkeeper.com
+@description    Adds an image as the background of the first block in the sidebar. 
+@author         AnthemV
+@version        0.1
+@license        Attribution 4.0 International (CC BY 4.0)
+@homepageURL    https://github.com/AnthemV/LKTweaks
+@supportURL     https://github.com/AnthemV/LKTweaks/issues
+==/UserStyle== */
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Adds an image as the background of the first block in the sidebar. Intended for use with text field block, but can apply to other blocks */
+body.theme-dark.dark .property-list > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+    background: linear-gradient(180deg, rgba(253, 153, 255, 0) 0%, rgba(41, 44, 46, .34) 0%, #292c2ed6 92%, #292c2e 100%),
+                linear-gradient(285deg, rgba(253, 153, 255, 0) 0%, #292c2eab 97%),
+                linear-gradient(30deg, #292c2e 0%, rgba(41, 44, 46, .71) 26%, #292c2e24 59%, rgba(30, 35, 40, 0) 100%),
+                url(https://assets.legendkeeper.com/6f0f23d1-74c7-4d55-84c0-69fb0b1f64c1.png);
+    padding-bottom: 70px;
+    padding-top: 130px;
+    background-size: cover;
+    margin-top: -64px;
+    border-bottom: 0px;
+    margin-bottom: -50px;
+    font-size: 14px;
+}
+
+}
