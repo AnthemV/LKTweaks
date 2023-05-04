@@ -188,7 +188,7 @@ This adds a small border to the link preview windows, making them easier to diff
 
 
 # Experimental Styles 
-Thses styles aren't reccomended for typical use. Install them if you want to alter them for mockups or test potential functionality.
+Thses styles aren't recommended for typical use. Install them if you want to alter them for mockups or test potential functionality.
 
   ## Sidebar Image
   
