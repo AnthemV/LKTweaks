@@ -187,8 +187,18 @@ This adds a small border to the link preview windows, making them easier to diff
 ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeBorder2.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterBorder2.png?raw=true)
 
 
+# Experimental Styles 
+Thses styles aren't reccomended for typical use. Install them if you want to alter them for mockups or test potential functionality.
 
-
+  ## Sidebar Image
+  
+<p align="left">
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/Experiment-Sidebar-Image.user.styl">
+    <img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat"/>
+  </a>
+ </p>
+ 
+ This adds an image to the background of the first block in the sidebar. The image you use applies to all sidebars. Dark theme only right now (because making the gradients consistant is hard).  
 
 
 
