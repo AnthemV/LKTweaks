@@ -23,12 +23,12 @@ My personal collection of Userstyles for LegendKeeper.com, plus instructions for
 14. Press `f6` and go to `https://addons.mozilla.org/en-US/firefox/addon/styl-us/`
 15. Install the extension Stylus.
 16. Press `f6` and go to `https://github.com/AnthemV/LKTweaks` (hey, that's here!)
-17. Install the Webapp Style from below.
+17. Install the WebApp Alterations from below.
 18. Install any other styles you desire, then restart your LegendKeeper PWA!
 
 
 
-  ## WebApp Style
+  ## WebApp Alterations
   
 <p align="left">
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Webapp.user.styl">
@@ -49,7 +49,7 @@ Install the browser extension *Stylus* ([Firefox.](https://addons.mozilla.org/en
 These styles are made for the legacy site, and (mostly) won't work on public worlds.
 
 
-## World Image Style
+## World Image
   
 <p align="left">
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-World-Image.user.styl">
@@ -70,7 +70,7 @@ Adds a cover image to the project browser. You have to manually specify the worl
 
 
 
-## Table Style
+## Table Improvements 
   
 <p align="left">
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Tables.user.styl">
@@ -85,8 +85,23 @@ Makes tables look nicer. The examples here are using some messy alignment things
 :-------------------------:|:-------------------------:
 ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeTables.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterTables.png?raw=true)
 
+## Slim Secrets
+  
+<p align="left">
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Slim-Secrets.user.styl">
+    <img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat"/>
+  </a>
+ </p>
+  
+Makes secret blocks look nicer by removing the clunky padding and header.
 
-  ## Header Style
+ 
+   Before             |  After 
+:-------------------------:|:-------------------------:
+![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeSlimSecrets.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterSlimSecrets.png?raw=true)
+
+
+  ## Header Improvements
   
 <p align="left">
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Headers.user.styl">
@@ -102,7 +117,7 @@ Decreases the spacing between headers and paragraphs.
 ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeHeaaders.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterHeaders.png?raw=true)
 
 
-## Embed Tweaks 
+## Embed Improvements 
 
 <p align="left">
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Embeds.user.styl">
@@ -125,7 +140,7 @@ Before             |  After
 ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/Screenshot%20from%202023-03-03%2002-08-05.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/Screenshot%20from%202023-03-03%2002-07-20.png?raw=true)
 
  
- ## Rounding Style 
+ ## Extra Rounding 
  
 <p align="left">
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Rounding.user.styl">
@@ -141,7 +156,7 @@ This adds rounded corners to quote blocks, and makes the rounded corners of imag
 ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeRounding2.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterRounding2.png?raw=true)
 
 
-  ## Search Style
+  ## Search Unification 
   
 <p align="left">
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Search.user.styl">
@@ -158,7 +173,7 @@ Moves the search icon into the same section as the other bottom blocks.
 
 
 
-## Menu Style 
+## Menu Alterations 
 
 <p align="left">
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Menus.user.styl">
@@ -175,7 +190,7 @@ This changes the appearance of menu items in LK.
  
  
  
-  ## Preview Window Border Style
+  ## Preview Window Border Tweak
   
 <p align="left">
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-PreviewBorder.user.styl">
