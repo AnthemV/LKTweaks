@@ -4,7 +4,7 @@
 @namespace      app.legendkeeper.com
 @description    Decreases the spacing between headers and paragraphs 
 @author         AnthemV
-@version        1.0
+@version        1.1
 @license        Attribution 4.0 International (CC BY 4.0)
 @homepageURL    https://github.com/AnthemV/LKTweaks
 @supportURL     https://github.com/AnthemV/LKTweaks/issues
@@ -31,5 +31,30 @@ h5 + p {
 }
 h6 + p {
     margin-top: 4px !important;
+}
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Unbolds the headers by default. They can still be bolded like normal text */
+
+/* Remove this line to enable
+
+h1  {
+    font-weight: normal !important;
+}
+h2 {
+    font-weight: normal !important;
+}
+h3 {
+    font-weight: normal !important;
+}
+h4 {
+    font-weight: normal !important;
+}
+h5 {
+    font-weight: normal !important;
+}
+h6 {
+    font-weight: normal !important;
 }
 }
