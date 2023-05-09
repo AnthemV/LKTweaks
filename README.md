@@ -4,7 +4,7 @@ My personal collection of Userstyles for the [LegendKeeper](https://www.legendke
 
 
 # The LK Webapp
-![(https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/LkWebapp.png?raw=true)
+![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/LkWebapp.png?raw=true)
 
 **The very simple eighteen step process to achive this is as follows:**
 1. Install Firefox.
