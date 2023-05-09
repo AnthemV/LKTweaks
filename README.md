@@ -1,10 +1,10 @@
 # What is This?
-My personal collection of Userstyles for LegendKeeper.com, plus instructions for combining them all into a slick webpp, if that's your style.  
+My personal collection of Userstyles for the [LegendKeeper](https://www.legendkeeper.com/) website, plus instructions for combining them all into a slick webpp, if that's your style.  
 
 
 
 # The LK Webapp
-![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/LkWebapp.png?raw=true)
+![(https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/LkWebapp.png?raw=true)
 
 **The very simple eighteen step process to achive this is as follows:**
 1. Install Firefox.
@@ -169,6 +169,22 @@ This adds rounded corners to quote blocks, and makes the rounded corners of imag
   Before             |  After 
 :-------------------------:|:-------------------------:
 ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeRounding2.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterRounding2.png?raw=true)
+
+ 
+ ## Image Padding Tweak
+ 
+<p align="left">
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Image-Padding.user.styl">
+    <img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat"/>
+  </a>
+ </p>
+ 
+This reduces the padding around images, making them easier to use in layouts. 
+
+ 
+  Before             |  After 
+:-------------------------:|:-------------------------:
+![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeImagePadding.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterImagePadding.png?raw=true)
 
 
   ## Search Unification 
