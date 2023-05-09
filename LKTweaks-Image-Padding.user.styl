@@ -1,0 +1,28 @@
+@-moz-document url-prefix("http://example.com") {
+/* ==UserStyle==
+@name           LKTweaks - Image Padding
+@namespace      app.legendkeeper.com
+@description    Reduces the padding of images
+@author         AnthemV
+@version        1.0
+@license        Attribution 4.0 International (CC BY 4.0)
+@homepageURL    https://github.com/AnthemV/LKTweaks
+@supportURL     https://github.com/AnthemV/LKTweaks/issues
+@updateURL      https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Image-Padding.user.styl
+==/UserStyle== */
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+.media-single {
+    margin-bottom: calc(-1.143rem + 12px) !important;
+    margin-top: 12px !important;
+}
+
+[layout="wrap-left"] .media-single {
+    margin-right: 16px !important;
+}
+
+[layout="wrap-right"] .media-single {
+    margin-left: 16px !important;
+}
+}
