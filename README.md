@@ -105,7 +105,7 @@ Backport of the header sizing changes from public worlds.
 ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeBackports.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterBackports.png?raw=true)
 
  
- ### Extra Rounding 
+ ### Consistant Rounding
  
 <p align="left">
   <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Rounding.user.styl">
@@ -113,7 +113,7 @@ Backport of the header sizing changes from public worlds.
   </a>
  </p>
  
-This adds rounded corners to quote blocks, and makes the rounded corners of images more pronounced, in order to match the corners of callout blocks. 
+Increases the size of the rounded corners of images to match callout blocks. Also adds matching rounded corners to quote blocks.
 
  
   Before             |  After 
