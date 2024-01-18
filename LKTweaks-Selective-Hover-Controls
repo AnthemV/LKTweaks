@@ -1,0 +1,35 @@
+@-moz-document url-prefix("https://example.com/") {
+/* ==UserStyle==
+@name           LKTweaks - Selective Hover Controls
+@namespace      app.legendkeeper.com
+@description    Layouts and image resizing bars popping up when hovering over a page is distracting. Lets fix that.
+@author         AnthemV
+@version        1.0
+@license        Attribution 4.0 International (CC BY 4.0)
+@homepageURL    https://github.com/AnthemV/LKTweaks
+@supportURL     https://github.com/AnthemV/LKTweaks/issues
+@updateURL      https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Selective-Hover-Controls.user.styl
+==/UserStyle== */
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Layout Outline */
+.group:hover .group-hover\:ring-2 {
+  box-shadow: none;
+}
+
+[data-testid="layout-section"]:hover [data-layout-content="true"] {
+    box-shadow: var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000) !important;
+}
+
+
+
+/* Image Resize Bar */
+.cursor-col-resize.rounded-sm.bg-gray-300.ring-1.ring-black {
+    display: none;
+}
+
+div.outline-blue.group.m-5.box-border.rounded-lg.outline-4:hover .cursor-col-resize.rounded-sm.bg-gray-300.ring-1.ring-black {
+    display: block !important;
+}
+}
