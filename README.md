@@ -1,5 +1,5 @@
 # What is This?
-My personal collection of Userstyles for the [LegendKeeper](https://www.legendkeeper.com/) website, plus instructions for combining them all into a slick webpp, if that's your style. Userstyles are custom CSS stylesheets, which can override the default styling of websites. Due to their differing codebases, most of the styles listed here won't apply to public worlds.
+My personal collection of Userstyles for the [LegendKeeper](https://www.legendkeeper.com/) website, plus instructions for combining them all into a slick webpp, if that's your style. Userstyles are custom CSS stylesheets that can override the default styling of websites. Due to their differing codebases, most of the styles listed here won't apply to public worlds.
 
 #### Usage
 Install the browser extension *Stylus* ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)), then click the "Install directly with Stylus" buttons.
