@@ -1,5 +1,5 @@
 # What is This?
-My personal collection of Userstyles for the [LegendKeeper](https://www.legendkeeper.com/) website, plus instructions for combining them all into a slick webpp, if that's your style. Userstyles are custom CSS stylesheets that can override the default styling of websites. Due to their differing codebases, most of the styles listed here won't apply to public views of worlds. 
+My personal collection of Userstyles for the [LegendKeeper](https://www.legendkeeper.com/) website. Userstyles are custom CSS stylesheets that can override the default styling of websites. Due to their differing codebases, most of the styles listed here won't apply to public views of worlds. 
 
 #### Usage
 Install the browser extension *Stylus* ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/), [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)), then click the "Install directly with Stylus" buttons.
@@ -119,43 +119,3 @@ Adds rounded corners to quote blocks, and increases the amount of rounding that 
   Before             |  After 
 :-------------------------:|:-------------------------:
 ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/BeforeRounding3.png?raw=true)  |  ![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/AfterRounding3.png?raw=true)
-
-
-
-## The LK Webapp
-![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/LkWebapp.png?raw=true)
-
-**The very simple eighteen step process to achive this is as follows:**
-1. Install Firefox.
-2. Install the [Progressive Web Apps for Firefox](https://addons.mozilla.org/en-US/firefox/addon/pwas-for-firefox/) extension.
-3. Install LegendKeeper as a PWA.
-4. Download and extract the `chrome` folder from the releases section.
-5. Press `f6` and go to `about:support`
-6. Scroll down slightly, and locate where it says "Profile Directory." Click on the button that says `Open Directory`
-7. Move the downloaded `chrome` folder to this directory. 
-8. Press `f6` and go to `about:config`
-9.  Set the value `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`
-10. Set the value `firefoxpwa.enableHidingIconBar` to `true`
-11. You can now press `Ctrl`+`Alt` to toggle the icon/tab bar.
-12. Press `f6` and go to `about:preferences`
-13. Scroll down and enable `Show browser tabs and enable using multi-tabbed web apps`
-14. Press `f6` and go to `https://addons.mozilla.org/en-US/firefox/addon/styl-us/`
-15. Install the extension Stylus.
-16. Press `f6` and go to `https://github.com/AnthemV/LKTweaks` (hey, that's here!)
-17. Install the WebApp Alterations from below.
-18. Install any other styles you desire, then restart your LegendKeeper PWA!
-
-
-
-  ### WebApp Alterations
-  
-<p align="left">
-  <a target="_blank" rel="noopener noreferrer" href="https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Webapp.user.styl">
-    <img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-116b59.svg?longCache=true&style=flat"/>
-  </a>
- </p>
- 
- **Disclaimer:**
-This style was made with the scaling and zoom of my personal LK instance in mind. If anything on your end differs, the placement of the window buttons is likely to be messed up. You can fix this by editing a file within the `chrome` folder we extracted and placed earlier. Go to `location-of-your-profile-directory/chrome/firefox-gnome-theme/customChrome.css` The values to edit are clearly marked out at the top. 
-
-![](https://github.com/AnthemV/LKTweaks/blob/main/Screenshots/Howtoedit.png?raw=true)
