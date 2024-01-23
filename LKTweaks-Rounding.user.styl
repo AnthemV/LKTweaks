@@ -1,10 +1,10 @@
 @-moz-document url-prefix("http://example.com") {
 /* ==UserStyle==
-@name           LKTweaks - Extra Rounding
+@name           LKTweaks - Rounding++
 @namespace      app.legendkeeper.com
 @description    Various tweaks for the LegendKeeper website. 
 @author         AnthemV
-@version        1.2
+@version        1.3
 @license        Attribution 4.0 International (CC BY 4.0)
 @homepageURL    https://github.com/AnthemV/LKTweaks
 @supportURL     https://github.com/AnthemV/LKTweaks/issues
@@ -19,7 +19,8 @@ blockquote {
 }
 
 /* Rounds the corners of images */
-img:not([class="max-h-full"]) {
+img:not(.max-h-full):not(.avatar img) {
     border-radius: 0.75rem !important;
 }
+
 }
