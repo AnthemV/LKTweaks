@@ -1,0 +1,337 @@
+@-moz-document domain("http://example.com") {
+/* ==UserStyle==
+@name           LKTweaks - Menu Items
+@namespace      app.legendkeeper.com
+@description    Tweaks for the munu items in LK
+@author         AnthemV
+@version        1.5
+@license        Attribution 4.0 International (CC BY 4.0)
+@homepageURL    https://github.com/AnthemV/LKTweaks
+@supportURL     https://github.com/AnthemV/LKTweaks/issues
+@updateURL      https://github.com/AnthemV/LKTweaks/raw/main/LKTweaks-Menus.user.styl
+==/UserStyle== */
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Misc */
+
+/* Fix for main wiki entries */
+div.special-overlay:nth-child(n) {
+    width: 99% !important;
+}
+
+:root {
+    --border-radius: 4px;
+}
+
+/* Add padding to dividers in menus and boards */
+.divider.padded, .c-hbofmm {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+/* Makes the 'Add Block' menu nicer */ /*
+.MuiList-root.MuiMenu-list.lk-context-menu.MuiList-padding:has(.text-input):not(:has(context-menu-resource-selector)) {
+padding-top: 0px !important;
+padding-bottom: 0px !important;
+overflow: hidden;
+}
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Project Landing Page */
+
+/* Sidebar */
+.world-select-logo-container + div > div:first-of-type .interactive-overlay:hover, .world-select-logo-container + div > div:first-of-type .interactive-overlay:active {
+  background-color: transparent;
+}
+
+.theme-dark .world-select-logo-container + div > div:first-of-type .interactive-overlay:hover::before, .theme-dark .world-select-logo-container + div > div:first-of-type .interactive-overlay:active::before {
+  background-color: #464a4d;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+}
+
+.theme-light .world-select-logo-container + div > div:first-of-type .interactive-overlay:hover::before, .teme.light .world-select-logo-container + div > div:first-of-type .interactive-overlay:active::before {
+  background-color: #CDCFD0;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+}
+
+.world-select-logo-container + div > div:first-of-type .tree-item-inner {
+    z-index: 0;
+}
+
+
+
+
+/* Projects */
+.drop-box [class="menu-item interactive-overlay"] {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    border-radius: 8px;
+    min-width: 190px;
+}
+
+/* Project inner padding */
+.menu-item {
+    padding: 12px 16px;
+}
+
+/* Project menu dividers */
+.divider.secondary {
+    margin: 0px 30px !important;
+}
+.world-select-background [class="divider padded"] {
+    margin-bottom: 8px
+}
+
+
+
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Popover Menu (Right click, context, etc.) */
+.MuiPopover-paper:not(:has(.text-input)) .interactive-overlay:hover, .MuiPopover-paper:not(:has(.text-input)) .interactive-overlay:active {
+  background-color: transparent;
+}
+
+.theme-dark .MuiPopover-paper:not(:has(.text-input)) .interactive-overlay:hover::before, .theme-dark .MuiPopover-paper:not(:has(.text-input)) .interactive-overlay:active::before {
+  background-color: #464a4d;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+}
+
+.theme-light .MuiPopover-paper:not(:has(.text-input)) .interactive-overlay:hover::before, .theme-light .MuiPopover-paper:not(:has(.text-input)) .interactive-overlay:active::before {
+  background-color: #CDCFD0;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+}
+
+.MuiPopover-paper:not(:has(.text-input)) .tree-item-inner {
+    z-index: 0;
+}
+
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Wiki Page Sidebar */
+.property-list .interactive-overlay:hover, .property-list .interactive-overlay:active {
+  background-color: transparent;
+}
+
+.theme-dark .property-list .interactive-overlay:hover::before, .theme-dark .property-list .interactive-overlay:active::before {
+  background-color: #464a4d;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+}
+
+.theme-light .property-list .interactive-overlay:hover::before, .theme-light .property-list .interactive-overlay:active::before {
+  background-color: #CDCFD0;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+}
+
+.property-list .tree-item-inner {
+    z-index: 0;
+}
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Indexes */
+
+/* Subpage Index */
+[data-extension-key="block-subpage-index"] .interactive-overlay:hover, [data-extension-key="block-subpage-index"] .interactive-overlay:active {
+  background-color: transparent;
+}
+
+.theme-dark [data-extension-key="block-subpage-index"] .interactive-overlay:hover::before, .theme-dark [data-extension-key="block-subpage-index"] .interactive-overlay:active::before {
+  background-color: #464a4d;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+}
+
+.theme-light [data-extension-key="block-subpage-index"] .interactive-overlay:hover::before, .theme-light [data-extension-key="block-subpage-index"] .interactive-overlay:active::before {
+  background-color: #CDCFD0;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+}
+
+[data-extension-key="block-subpage-index"] .tree-item-inner {
+    z-index: 0;
+}
+
+/* Tag Index */
+[data-extension-key="block-tag-index"] .interactive-overlay:hover, [data-extension-key="block-tag-index"] .interactive-overlay:active {
+  background-color: transparent;
+}
+
+.theme-dark [data-extension-key="block-tag-index"] .interactive-overlay:hover::before, .theme-dark [data-extension-key="block-tag-index"] .interactive-overlay:active::before {
+  background-color: #464a4d;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+}
+
+.theme-light [data-extension-key="block-tag-index"] .interactive-overlay:hover::before, .theme-light [data-extension-key="block-tag-index"] .interactive-overlay:active::before {
+  background-color: #CDCFD0;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+}
+
+[data-extension-key="block-tag-index"] .tree-item-inner {
+    z-index: 0;
+}
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Search Bar */
+[data-cy="search-button"] .interactive-overlay:hover, [data-cy="search-button"] .interactive-overlay:active {
+  background-color: transparent;
+}
+
+.theme-dark [data-cy="search-button"] .interactive-overlay:hover::before, .theme-dark [data-cy="search-button"] .interactive-overlay:active::before {
+  background-color: #464a4d;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+}
+
+.theme-light [data-cy="search-button"] .interactive-overlay:hover::before, .theme-light [data-cy="search-button"] .interactive-overlay:active::before {
+  background-color: #CDCFD0;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+}
+
+[data-cy="search-button"] .tree-item-inner {
+    z-index: 0;
+}
+
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Project Settings Menu */
+.MuiPaper-elevation24 .interactive-overlay:hover, [data-cy="search-button"] .interactive-overlay:active {
+  background-color: transparent;
+}
+
+.theme-dark .MuiPaper-elevation24 .interactive-overlay:hover::before, .theme-dark .MuiPaper-elevation24 .interactive-overlay:active::before {
+  background-color: #464a4d;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+}
+
+.theme-light .MuiPaper-elevation24 .interactive-overlay:hover::before, .theme-light .MuiPaper-elevation24 .interactive-overlay:active::before {
+  background-color: #CDCFD0;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+}
+
+.MuiPaper-elevation24 .tree-item-inner {
+    z-index: 0;
+}
+
+}
+
+@-moz-document domain("app.legendkeeper.com") {
+/* Boards */
+
+.c-yroDl-fjCQFt-cv:hover:not(:disabled) .c-ecEETu {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+
+.theme-dark .c-yroDl-fjCQFt-cv:hover:not(:disabled) .c-ecEETu::after {
+  background-color: #464A4D;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
+.theme-light .c-yroDl-fjCQFt-cv:hover:not(:disabled) .c-ecEETu::after {
+  background-color: #CDCFD0;
+    content: "";
+  position: absolute;
+  top: .5px;
+  bottom: .5px;
+  right: 6px;
+  left: 6px;
+  border-radius: var(--border-radius);
+  z-index: -1;
+}
+
+}
