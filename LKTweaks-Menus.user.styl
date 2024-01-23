@@ -4,7 +4,7 @@
 @namespace      app.legendkeeper.com
 @description    Tweaks for the munu items in LK
 @author         AnthemV
-@version        1.5
+@version        1.6
 @license        Attribution 4.0 International (CC BY 4.0)
 @homepageURL    https://github.com/AnthemV/LKTweaks
 @supportURL     https://github.com/AnthemV/LKTweaks/issues
@@ -269,11 +269,11 @@ overflow: hidden;
 
 @-moz-document domain("app.legendkeeper.com") {
 /* Project Settings Menu */
-.MuiPaper-elevation24 .interactive-overlay:hover, [data-cy="search-button"] .interactive-overlay:active {
+.MuiPaper-elevation24 .tree-item-container .interactive-overlay:hover, .MuiPaper-elevation24 .tree-item-container .interactive-overlay:active {
   background-color: transparent;
 }
 
-.theme-dark .MuiPaper-elevation24 .interactive-overlay:hover::before, .theme-dark .MuiPaper-elevation24 .interactive-overlay:active::before {
+.theme-dark .MuiPaper-elevation24 .tree-item-container .interactive-overlay:hover::before, .theme-dark .MuiPaper-elevation24 .tree-item-container .interactive-overlay:active::before {
   background-color: #464a4d;
     content: "";
   position: absolute;
@@ -284,7 +284,7 @@ overflow: hidden;
   border-radius: var(--border-radius);
 }
 
-.theme-light .MuiPaper-elevation24 .interactive-overlay:hover::before, .theme-light .MuiPaper-elevation24 .interactive-overlay:active::before {
+.theme-light .MuiPaper-elevation24 .tree-item-container .interactive-overlay:hover::before, .theme-light .MuiPaper-elevation24 .tree-item-container .interactive-overlay:active::before {
   background-color: #CDCFD0;
     content: "";
   position: absolute;
@@ -295,7 +295,7 @@ overflow: hidden;
   border-radius: var(--border-radius);
 }
 
-.MuiPaper-elevation24 .tree-item-inner {
+.MuiPaper-elevation24 .tree-item-container .tree-item-inner {
     z-index: 0;
 }
 
