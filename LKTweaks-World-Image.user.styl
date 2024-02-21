@@ -34,9 +34,14 @@ body.theme-light.light .wiki-shortcuts {
     background-color: transparent;
 }
 
-/* Makes a convenient section of the page behind the headerbar the same color as the headerbar used to be. This might seem pointless, but has to do with putting the image in front of the headerbar */
-.lk-layout-manager {
-    background: #0E0F0F !important;
+html::before {
+  content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  background-color: black; /* Set the color to black */
 }
 
 /* Moves the buttons in the headerbar slightly to the right, because it doesn't look right otherwise */
